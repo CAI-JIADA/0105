@@ -232,5 +232,6 @@ int main() {
 | 測試案例 | 輸入參數  | 實際輸出Prim |實際輸出Kruskal |
 |----------|---------------|----------|----------|
 | 測試一   | <img width="359" height="270" alt="image" src="https://github.com/user-attachments/assets/62ec40d3-839a-4170-84d4-5d280ddfcc2f" /> | <img width="134" height="141" alt="image" src="https://github.com/user-attachments/assets/23e2549a-8680-421d-9782-71bace556d08" />| <img width="157" height="132" alt="image" src="https://github.com/user-attachments/assets/d0a187bd-4e3f-4309-8e95-9af34406e13c" />|
-| 測試二   | $A = 2 3 2 -3 2$ $B = 1 3 2$ $3$ | 3x^2 | -3x^2 |
+| 測試二   | <img width="328" height="220" alt="image" src="https://github.com/user-attachments/assets/ad8d8c8c-312b-4fdc-91dc-373693411dd1" />| <img width="138" height="130" alt="image" src="https://github.com/user-attachments/assets/efc32582-87f9-4511-9db3-924f756be190" />| <img width="139" height="119" alt="image" src="https://github.com/user-attachments/assets/5ef26b40-d22e-4adc-b9ac-86b2429d0d49" />
+ |
 
