@@ -232,6 +232,13 @@ int main() {
 | 測試案例 | 輸入參數  | 實際輸出Prim |實際輸出Kruskal |
 |----------|---------------|----------|----------|
 | 測試一   | <img width="359" height="270" alt="image" src="https://github.com/user-attachments/assets/62ec40d3-839a-4170-84d4-5d280ddfcc2f" /> | <img width="134" height="141" alt="image" src="https://github.com/user-attachments/assets/23e2549a-8680-421d-9782-71bace556d08" />| <img width="157" height="132" alt="image" src="https://github.com/user-attachments/assets/d0a187bd-4e3f-4309-8e95-9af34406e13c" />|
-| 測試二   | <img width="328" height="220" alt="image" src="https://github.com/user-attachments/assets/ad8d8c8c-312b-4fdc-91dc-373693411dd1" />| <img width="138" height="130" alt="image" src="https://github.com/user-attachments/assets/efc32582-87f9-4511-9db3-924f756be190" />| <img width="139" height="119" alt="image" src="https://github.com/user-attachments/assets/5ef26b40-d22e-4adc-b9ac-86b2429d0d49" />
- |
+| 測試二   | <img width="328" height="220" alt="image" src="https://github.com/user-attachments/assets/ad8d8c8c-312b-4fdc-91dc-373693411dd1" />| <img width="138" height="130" alt="image" src="https://github.com/user-attachments/assets/efc32582-87f9-4511-9db3-924f756be190" />| <img width="139" height="119" alt="image" src="https://github.com/user-attachments/assets/5ef26b40-d22e-4adc-b9ac-86b2429d0d49" /> |
 
+### 結論
+
+1. 程式能以環狀串列正確表示多項式，並完成加減乘與代入計算。
+2. 透過 $AddTerm$ 統一處理插入與合併，避免出現重複次方或0係數項。  
+
+## 申論及開發報告
+
+透過本次開發實驗可以發現，沒有絕對完美的圖形表示法，只有最適合該演算法的資料結構。本程式利用繼承，將兩種演算法各自需要的資料封裝在同一個`MyGraph`類別節省空間效率。
