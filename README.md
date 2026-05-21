@@ -231,18 +231,6 @@ int main() {
 
 | 測試案例 | 輸入參數  | 實際輸出Prim |實際輸出Kruskal |
 |----------|---------------|----------|----------|
-| 測試一   | $6
-10
-0
-0 1 6
-0 2 1
-0 3 5
-1 2 5
-1 4 3
-2 3 5
-2 4 6
-2 5 4
-3 5 2
-4 5 6$ | 總最小權重:15 0 -- 2 == 1 3 -- 5 == 2 1 -- 4 == 3 2 -- 5 == 4 1 -- 2 == 5 | 總最小權重:15 0 -- 2 == 1 2 -- 5 == 4 5 -- 3 == 2 2 -- 1 == 5 1 -- 4 == 3 |
+| 測試一   | <img width="359" height="270" alt="image" src="https://github.com/user-attachments/assets/62ec40d3-839a-4170-84d4-5d280ddfcc2f" /> | <img width="134" height="141" alt="image" src="https://github.com/user-attachments/assets/23e2549a-8680-421d-9782-71bace556d08" />| <img width="157" height="132" alt="image" src="https://github.com/user-attachments/assets/d0a187bd-4e3f-4309-8e95-9af34406e13c" />|
 | 測試二   | $A = 2 3 2 -3 2$ $B = 1 3 2$ $3$ | 3x^2 | -3x^2 |
 
